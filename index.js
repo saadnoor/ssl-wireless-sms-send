@@ -2,7 +2,7 @@ let request = require('request-promise');
 
 const SMS_API = 'http://sms.sslwireless.com/pushapi/dynamic/server.php';
 
-async function sendSMS(receiver, text, userName, password, bengaliSID, englishSID, csmsid) {
+async function send(receiver, text, userName, password, bengaliSID, englishSID, csmsid) {
     let params = getParams(receiver, text, userName, password, bengaliSID, englishSID, csmsid);
 
     return request({
@@ -48,6 +48,6 @@ function isEnglishSMS(text) {
 }
 
 module.exports = {
-    sendSMS,
+    send,
     bengaliToUnicode
 };

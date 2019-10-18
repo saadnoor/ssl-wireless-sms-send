@@ -1,10 +1,14 @@
 {
   "name": "ssl-wireless-sms-send",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "Send both Bengali and English by SSL wireless",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type" : "git",
+    "url" : "https://github.com/saadnoor/ssl-wireless-sms-send.git"
   },
   "keywords": [
     "ssl",
@@ -16,8 +20,7 @@
     "bangla",
     "to",
     "unicode",
-    "bengali",
-    "unicode"
+    "bengali"
   ],
   "author": "Saadnoor Salehin Shwapneel",
   "license": "ISC",
