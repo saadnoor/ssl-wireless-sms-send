@@ -9,8 +9,9 @@ npm install —save ssl-wireless-sms-send
 ```
 
 ## Usage
-There are 2 functionalities to use.
-1. **Sending SMS**
+There are 2 functionalities to use. 
+
+**1. Sending SMS**  
 It sends sms by using SSL wireless. You need to have the necessary credentials for SSL wireless . For sending SMS you have to call a function named `send`. The `send` method takes these following arguments. (_Make sure order is maintained properly_)
 
 ```
@@ -47,9 +48,7 @@ sms.send('01671996355',
     });
 
 ```
-
-
-2. **Convert Bangla to Unicode**
+ **2. Convert Bangla to Unicode** 
 It receives a Bengali string as a argument and converts it to unicode.
 
 ```js
